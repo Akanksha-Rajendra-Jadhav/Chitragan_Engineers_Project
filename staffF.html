@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      box-sizing: initial;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aquamarine;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            /* padding: 20px 0; */
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+        .sidebar ul li a {
+          	text-decoration: none;
+          	color: #eee;
+            
+	          cursor: pointer;
+	          letter-spacing: 1px;
+            box-sizing: border-box;
+        }
+        .sidebar ul li a i {
+	          display: inline-block;
+	          /* padding-right: 10px; */
+	          font-size: 30px;
+            padding: 10px 20px;
+            margin-bottom: 5px;
+          
+        }
+        .sidebar {
+	          width: 250px;
+          	background: #262931;
+	          min-height: 100vh;
+	          transition: 500ms;
+        }
+        .a{
+            align-content: right;
+        }
+
+        .sidebar ul li:hover {
+            background-color: #555;
+        }
+
+        .main-content {
+            margin-left: 200px;
+            padding: 20px;
+        }
+  </style>
+</head>
+<body>
+
+  <form action="StaffDB.php" method="post">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="project">Project:</label>
+    <input type="text" id="project" name="project" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="projectArea">Project Area</label>
+    <input type="projectArea" id="projectArea" name="projectArea" required>
+
+    <button class="btn btn-primary">Submit</a></button>
+    <button class="btn btn-primary"><a href="staffDBR.php">Back</a></button>
+    
+
+    
